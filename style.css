@@ -10,6 +10,11 @@ body {
   color: white;
   width: 100%;
 }
+.imgloogo{
+  height: 100%;
+
+  padding-top: 4px;
+}
 .top {
   
   position: fixed;
@@ -22,11 +27,12 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #031113;
+
 }
 
 .input {
-  width: 45em;
-  height: 3em;
+  width: 60em;
+  height: 4em;
   border-radius: 40px;
   background-color: #2a3236;
   background-image: url("images/search.png");
@@ -98,5 +104,14 @@ font-weight: 900;
   position: fixed;
   width: 100%;
   z-index: auto;
-  margin-top: -16px;
+  margin-top: -11px;
+ 
 }
+hr {
+
+border: none;
+  
+  border-top: 1px solid #8d8a8a;
+  
+  }
+  
